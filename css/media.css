@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 875px){
+    .contacts-block__links{
+        gap: 1%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .contacts-block__logo{
+        justify-content: center;
+    }
+
+    .contacts-block__links{
+        flex-direction: column;
+        gap: 50%;
+    }
+
+    .contacts-block__links__description{
+        width: 80%;
+        text-align: center;
+    }
+
+    .contacts-block__links__description p{
+        margin-bottom: 10%;
+    }
+
+    .contacts-block__links__wrapper{
+        text-align: center;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .contacts-block__links__wrapper{
+        flex-direction: column;
+    }
+
+    .contacts-block__links__social a{
+        margin: 3% 0;
+    }
+}
