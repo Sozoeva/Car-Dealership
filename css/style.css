@@ -41,3 +41,100 @@ text-decoration: none;
     border: none;
     cursor: pointer;
 }
+
+.location-block{
+    padding: 3% 0;
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+.location-block__inner h2{
+    font: 700 52px 'Be Vietnam Pro';
+    letter-spacing: 0.6%;
+    color: #FFFFFF;
+    margin: 2% 0;
+}
+
+.location-block__map iframe{
+    width: 95%;
+}
+
+.contacts-block{
+    padding: 3%;
+    background-color: #1F1905;
+    color: #FFFFFF;
+}
+
+.contacts-block__logo{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+.contacts-block__logo span{
+    font: 600 16px 'Be Vietnam Pro';
+    color: #FFFFFF;
+    letter-spacing: 1%;
+}
+
+.contacts-block__links{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+}
+
+.contacts-block__links__description{
+    width: 35%;
+}
+
+.contacts-block__links__description p{
+    font: 400 18px 'Be Vietnam Pro';
+}
+
+.contacts-block__links__wrapper{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.contacts-block__links__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts-block__links__wrapper a{
+    font: 400 16px 'Be Vietnam Pro';
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contacts-block__links__wrapper .bold-link{
+    font: 700 18px 'Manrope';
+}
+
+.contacts-block__links__social{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-block__links__social a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10% 0;
+}
+
+footer{
+    background-color: #EE8313;
+    padding: 2% 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer p{
+    font: 400 16px 'Be Vietnam Pro';
+}
