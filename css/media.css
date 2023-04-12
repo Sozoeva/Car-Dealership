@@ -6,6 +6,67 @@
 
 
 
+@media screen and (max-width: 992px) {
+    .car-rental__cards{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .car-rental__card {
+        background: #131313;
+        border: 1px solid #171717;
+        width: 85%;
+      }
+
+    .services__cards {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    .services__title {
+        text-align: center;
+    }
+
+    .car-rental__title {
+        width: 70%;
+    }
+
+    
+    
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .services__cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .services__title {
+        text-align: center;
+    }
+
+  
+
+    
+}
+
+@media screen and (max-width: 320px) {
+    .car-rental__title {
+        font-size: 35px;
+       text-align: center;
+    }
+
+    .car-rental h3 {
+        font-size: 15px;
+    }
+}
 
 
 
