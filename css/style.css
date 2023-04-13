@@ -52,6 +52,125 @@ body {
     cursor: pointer;
 }
 
+.intro {
+  margin: 150px auto;
+}
+
+.intro__content {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+}
+
+.intro__content_text {
+  width: 40%;
+}
+
+.intro__title {
+  font-size: 52px;
+}
+
+.intro__subtitle {
+  font-size: 17px;
+  line-height: 28px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.intro__btns {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.intro__btm-buy {
+  background-color: #ee8313;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  margin-right: 5%;
+}
+
+.intro__btm-video {
+  background: none;
+  border: 1px solid #ee8313;
+  padding: 11px 24px;
+  font-size: 16px;
+  color: #ee8313;
+}
+
+.intro__static {
+  display: flex;
+}
+
+.intro__static_content {
+  display: flex;
+  width: 100%;
+}
+
+.intro__static p {
+  padding-top: 5px;
+}
+
+.intro__static_img {
+  margin-right: 16px;
+}
+
+.intro__img_car {
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  width: 65%;
+}
+
+.rent__content {
+  margin-bottom: 100px;
+}
+
+.rent__car {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.rent__title {
+  font-size: 52px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.rent__text {
+  position: relative;
+  text-align: center;
+  width: 85%;
+  margin-bottom: 2%;
+}
+
+.rent__text img {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  font-size: 40px;
+}
+
+.text {
+  position: absolute;
+  bottom: 7%;
+  right: 22%;
+  font-size: 24px;
+}
+
+.text::after {
+  position: absolute;
+  background-image: url(./images/arrow_rgt.svg);
+  content: "";
+  z-index: 1;
+  right: -10%;
+}
+
 .services__title {
     font-family: 'Be Vietnam Pro';
     font-style: normal;
