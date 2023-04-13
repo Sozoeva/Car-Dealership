@@ -145,8 +145,12 @@ body {
   margin-bottom: 2%;
 }
 
-.rent__text img {
+.rent__img {
   width: 100%;
+}
+
+.arrow {
+  position: absolute;
 }
 
 .title {
