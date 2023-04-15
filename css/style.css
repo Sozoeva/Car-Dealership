@@ -185,6 +185,10 @@ body {
   width: 100%;
 }
 
+.services__card{
+  min-width: 32%;
+}
+
 .card__text {
   font-style: normal;
   font-weight: 700;
