@@ -124,6 +124,10 @@
 }
 
 @media screen and (max-width: 720px) {
+.intro__img_car {
+  margin-top: 60px;
+}
+
   .contacts-block__logo {
     justify-content: center;
   }
@@ -439,5 +443,21 @@
 
   .location-block__inner h2 {
     font-size: 28px;
+  }
+
+  .contacts-block__links__description p {
+    font: 400 16px "Be Vietnam Pro";
+  }
+
+  .contacts-block__links__list a {
+    font-size: 14px;
+  }
+
+  .contacts-block__links__wrapper .bold-link {
+    font: 700 14px "Manrope";
+  }
+
+  .contacts-block__links__social a {
+    font-size: 14px;
   }
 }

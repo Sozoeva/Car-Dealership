@@ -80,6 +80,7 @@ body {
   padding: 12px 24px;
   font-size: 16px;
   margin-right: 5%;
+  cursor: pointer;
 }
 
 .intro__btm-video {
@@ -88,6 +89,7 @@ body {
   padding: 11px 24px;
   font-size: 16px;
   color: #ee8313;
+  cursor: pointer;
 }
 
 .intro__static {
@@ -185,7 +187,7 @@ body {
   width: 100%;
 }
 
-.services__card{
+.services__card {
   min-width: 32%;
 }
 
