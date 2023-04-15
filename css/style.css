@@ -13,6 +13,7 @@
 
 body {
   background-color: black;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .header {
@@ -47,16 +48,16 @@ body {
 }
 
 .intro {
-  margin: 150px auto;
+  margin: 90px auto;
 }
 
 .intro__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .intro__content_text {
-  width: 40%;
+  width: 45%;
 }
 
 .intro__title {
@@ -107,14 +108,9 @@ body {
 }
 
 .intro__img_car {
-  position: absolute;
   left: 35%;
   top: 15%;
-  width: 65%;
-}
-
-.rent__content {
-  margin-bottom: 100px;
+  width: 115%;
 }
 
 .rent__car {
@@ -167,13 +163,11 @@ body {
 }
 
 .services__title {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
   line-height: 64px;
   letter-spacing: 0.006em;
-  color: #ffffff;
   padding: 60px 0 66px;
 }
 
@@ -183,41 +177,31 @@ body {
 
 .services__cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 2%;
 }
 
 .services__cards img {
-  width: 95%;
-}
-
-.services__card {
-  text-align: center;
+  width: 100%;
 }
 
 .card__text {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.006em;
-  color: #ffffff;
   padding: 24px 0 16px;
   width: 95%;
 }
 
 .card__subtitle {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.006em;
-  color: #ffffff;
-  opacity: 0.8;
   margin-bottom: 60px;
-  padding: 0 15%;
 }
 
 .car-rental {
@@ -230,14 +214,9 @@ body {
 
 .car-rental__title {
   width: 590px;
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
-  line-height: 64px;
-  text-align: center;
-  letter-spacing: 0.006em;
-  color: #ffffff;
   text-align: center;
   padding-bottom: 24px;
   margin: 0 auto;
@@ -260,24 +239,20 @@ body {
 }
 
 .car-rental__country {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.006em;
-  color: #ffffff;
   padding: 25px 0 13px 24px;
 }
 
 .car-rental__subtitle {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.0041em;
-  color: #ffffff;
   opacity: 0.8;
   padding-bottom: 25px;
   padding-left: 24px;
@@ -295,23 +270,19 @@ body {
 }
 
 .car-rental__price {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.0041em;
-  color: #ffffff;
 }
 
 .car-rental__search {
-  font-family: "Be Vietnam Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.0041em;
-  color: #ee8313;
   padding-bottom: 24px;
   padding-left: 24px;
 }
@@ -324,7 +295,6 @@ body {
 .location-block__inner h2 {
   font: 700 52px "Be Vietnam Pro";
   letter-spacing: 0.6%;
-  color: #ffffff;
   margin: 2% 0;
 }
 
@@ -335,7 +305,6 @@ body {
 .contacts-block {
   padding: 3%;
   background-color: #1f1905;
-  color: #ffffff;
 }
 
 .contacts-block__logo {
@@ -346,7 +315,6 @@ body {
 
 .contacts-block__logo span {
   font: 600 16px "Be Vietnam Pro";
-  color: #ffffff;
   letter-spacing: 1%;
 }
 
@@ -382,7 +350,6 @@ body {
 .contacts-block__links__wrapper a {
   font: 400 16px "Be Vietnam Pro";
   text-decoration: none;
-  color: #ffffff;
   cursor: pointer;
 }
 
@@ -397,7 +364,6 @@ body {
 
 .contacts-block__links__social a {
   text-decoration: none;
-  color: #ffffff;
   margin: 10% 0;
 }
 
@@ -405,7 +371,6 @@ footer {
   background-color: #ee8313;
   padding: 2% 0;
   text-align: center;
-  color: #ffffff;
 }
 
 footer p {
